@@ -571,7 +571,7 @@
   .listTitle,
   #list {
     font-size: 0.6rem; /* Adjust font size for smaller screens */
-    width: 300px;
+    width: 70%;
   }
 
   #about-page {
