@@ -1,0 +1,702 @@
+.background {
+  background-image: url(bg-default.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: -1;
+  transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+#title {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+}
+
+#underTitle {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+  font-variation-settings: "YOPQ" 300;
+  letter-spacing: 1px;
+}
+
+#navBar {
+  position: sticky;
+  top: 0;
+  background-color: #f7ede2;
+  text-align: center;
+  padding: 1.2%;
+  margin-bottom: 5%;
+  margin-right: 0;
+  margin-left: -8px;
+  width: 99%;
+  z-index: 9999;
+}
+
+.navItem {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+  font-variation-settings: "YOPQ" 300;
+  padding: 4.5%;
+  font-size: 0.75rem;
+  margin-left: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: #88907a;
+}
+
+#slider {
+  margin-left: -2%;
+  margin-right: -1.8%;
+  margin-bottom: 5%;
+}
+
+#slider1,
+#slider2,
+#slider3 {
+  margin: -3px;
+  width: 33.2%;
+  height: 275px;
+  filter: grayscale(100%);
+}
+
+.littlePar {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.7rem;
+  margin-bottom: 5%;
+}
+
+#where {
+  display: flex;
+  margin-right: 7%;
+  margin-top: -1%;
+}
+
+#me {
+  margin-left: 2%;
+  display: flex;
+  margin-left: 33%;
+  margin-top: -7%;
+}
+
+#experience {
+  display: flex;
+  margin-left: 70%;
+  margin-top: -8%;
+}
+
+#cta {
+  text-align: center;
+  padding: 0.5%;
+  width: 300px;
+  margin-left: 37.5%;
+  color: #20305a;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 0.7rem;
+  font-style: normal;
+  background-color: #f7ede2;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+#cta:hover {
+  background-color: #88907a;
+  color: white;
+}
+
+.background.about {
+  background: url("bg-about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background.service {
+  background: url("bg-services.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutMe {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: #20305a;
+  margin-left: 5%;
+  font-size: 1.2rem;
+}
+
+.listTitle {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #20305a;
+  text-align: left;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.6rem;
+  margin-left: 5%;
+}
+
+#list {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #20305a;
+  text-align: left;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.6rem;
+  margin-left: 5%;
+  width: 500px;
+}
+
+#grid {
+  float: right;
+  margin-top: -40%;
+  width: 32%;
+}
+
+#aboutPage {
+  margin-bottom: 15%;
+}
+
+#expTitle,
+#conTitle {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 150px;
+}
+
+#front-end,
+#back-end,
+#skill {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: #20305a;
+  font-size: 0.6rem;
+  display: flexbox;
+}
+
+.par {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 525;
+  font-style: normal;
+  color: #20305a;
+  text-align: left;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.6rem;
+  width: 400px;
+  text-align: center;
+}
+
+#mid {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  filter: blur(1.5px);
+  display: flex;
+  margin-left: 35%;
+  margin-top: -15%;
+  margin-bottom: 5%;
+}
+
+#left {
+  width: 260px;
+  height: 200px;
+  border-radius: 10px;
+  filter: blur(1.5px);
+  margin-left: 5%;
+}
+
+#right {
+  width: 260px;
+  height: 200px;
+  border-radius: 10px;
+  filter: blur(1.5px);
+  margin-left: 74%;
+  margin-top: -11%;
+}
+
+#right:hover,
+#left:hover,
+#mid:hover {
+  filter: blur(0px);
+}
+
+#front-end {
+  margin-top: 10%;
+}
+
+#fe {
+  text-align: center;
+  margin-right: 67%;
+  margin-top: -5%;
+}
+
+#back-end {
+  float: right;
+  margin-top: -24%;
+  text-align: center;
+}
+
+#skill {
+  text-align: center;
+  margin-left: 33%;
+}
+
+#skills {
+  margin-left: -420px;
+  margin-top: -200px;
+}
+
+#serTitle {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  margin-top: 15%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+#cta-services {
+  text-align: center;
+  padding: 0.5%;
+  width: 300px;
+  margin-left: 37.5%;
+  color: white;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 0.7rem;
+  font-style: normal;
+  background-color: #20305a;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 10%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+#cta-services:hover {
+  background-color: #88907a;
+  color: #20305a;
+}
+
+#serTitle {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: #20305a;
+  margin-left: 5%;
+  font-size: 1.3rem;
+}
+
+#ser-b {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #20305a;
+  text-align: left;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.6rem;
+  margin-left: 5%;
+}
+
+#ser-li {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #20305a;
+  text-align: left;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.6rem;
+  margin-left: 5%;
+  width: 500px;
+}
+
+#servicesList {
+  margin-left: 7%;
+}
+
+#contact,
+#contactUnder {
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.7rem;
+}
+
+#contact {
+  margin-top: -10%;
+}
+
+#conList {
+  margin-left: 35%;
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #20305a;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.7rem;
+  margin-bottom: 2%;
+}
+
+#listCon {
+  margin-bottom: 2%;
+}
+
+#buttons {
+  display: flex;
+}
+
+#cta-phone {
+  text-align: center;
+  padding: 0.5%;
+  width: 35%;
+  height: 30px;
+  margin-left: 33.5%;
+  color: #f7ede2;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 0.7rem;
+  font-style: normal;
+  background-color: #88907a;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: -6%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+#cta-phone:hover {
+  background-color: #f7ede2;
+  color: #88907a;
+}
+
+#divs {
+  column-count: 2;
+}
+
+#phone {
+  text-align: center;
+  padding: 0.5%;
+  width: 75%;
+  height: fit-content;
+  background-color: #f7ede2;
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #20305a;
+  text-align: center;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 0.7rem;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 10.5%;
+  cursor: pointer;
+  margin-left: 66%;
+  break-inside: avoid;
+}
+
+.showPhone {
+}
+
+.hidePhone {
+  display: none;
+}
+
+#footer {
+  background-color: #f7ede2;
+  color: #20305a;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  font-style: normal;
+  margin-bottom: -5%;
+  width: 99%;
+  padding: 1.25%;
+  margin-top: 15%;
+  margin-left: -0.75%;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 950px) {
+  .background {
+    background-image: none; /* Use a different background image for small screens if needed */
+  }
+
+  .background.about {
+    background-image: none;
+  }
+
+  .background.service {
+    background-image: none;
+  }
+
+  #title {
+    font-size: 1.6rem; /* Adjust font size for smaller screens */
+  }
+
+  #underTitle {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  #navBar {
+    padding: 1%;
+    width: 102%; /* Adjust padding for smaller screens */
+  }
+
+  .navItem {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+    padding: 3%; /* Adjust padding for smaller screens */
+  }
+
+  #slider {
+    margin: 0;
+  }
+  #slider1,
+  #slider3 {
+    display: none;
+  }
+
+  #slider2 {
+    width: 100%; /* Make sliders full width for smaller screens */
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  #slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .littlePar {
+    font-size: 0.7rem; /* Adjust font size for smaller screens */
+    display: block;
+  }
+
+  #where {
+    display: flex;
+    margin-right: 7%;
+    margin-top: 5%;
+  }
+
+  #me {
+    margin-left: 2%;
+    display: block;
+    margin-left: -8.5px;
+    margin-top: 0%;
+    width: 95%;
+  }
+
+  #experience {
+    display: block;
+    margin-left: -8.5px;
+    width: 90%;
+    margin-top: 0%;
+  }
+  #cta {
+    width: 80%; /* Adjust width for smaller screens */
+    margin-left: 10%; /* Center the button */
+  }
+
+  .aboutMe {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .listTitle,
+  #list {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+    width: 300px;
+  }
+
+  #about-page {
+    background-color: rgba(136, 144, 122, 0.3);
+    padding: 2%;
+    border-radius: 5px;
+  }
+
+  #grid {
+    width: 100%; /* Make grid full width for smaller screens */
+    display: block;
+    margin-top: 10%;
+    padding-left: 15%;
+  }
+
+  #expTitle,
+  #conTitle {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-top: 500px;
+  }
+
+  #front-end,
+  #back-end,
+  #skill {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #fe,
+  #be {
+    display: block;
+    text-align: center;
+    margin-right: 0%;
+    margin-top: 5%;
+  }
+
+  #expTitle {
+    margin-bottom: 4%;
+    margin-top: 150%;
+  }
+
+  #skills {
+    margin-top: 4%;
+    display: block;
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  #back-end {
+    display: block;
+
+    text-align: center;
+  }
+
+  #skill {
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  .par {
+    font-size: 0.5rem; /* Adjust font size for smaller screens */
+    display: block;
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  #mid,
+  #left,
+  #right {
+    display: block;
+    width: 70%; /* Make images full width for smaller screens */
+    height: auto; /* Adjust height for smaller screens */
+    margin: 0;
+    margin-left: 15%; /* Adjust margin for smaller screens */
+  }
+
+  #serTitle {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  #cta-services {
+    width: 80%; /* Adjust width for smaller screens */
+    margin-left: 10%; /* Center the button */
+  }
+
+  #ser-b,
+  #ser-li {
+    font-size: 0.7rem; /* Adjust font size for smaller screens */
+    width: 65%;
+  }
+
+  #servicesList {
+    background-color: rgba(247, 237, 226, 0.5);
+    padding: 1%;
+    margin-left: 1px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+  }
+  #conTitle {
+    margin-top: 15%;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+  }
+  #contact,
+  #contactUnder,
+  #conList {
+    font-size: 0.7rem; /* Adjust font size for smaller screens */
+    margin: 0;
+    margin-bottom: 5%;
+  }
+  #phone {
+    margin-top: 15%;
+    width: 110%;
+    margin-left: 50%;
+  }
+  #cta-phone {
+    width: 80%; /* Adjust width for smaller screens */
+    margin-left: 10%; /* Center the button */
+  }
+
+  #footer {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+    width: 101.5%;
+    margin-left: -2%;
+  }
+}
