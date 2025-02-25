@@ -481,7 +481,7 @@
 }
 
 /* Media query for screens smaller than 600px */
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
   .background {
     background-image: none; /* Use a different background image for small screens if needed */
   }
@@ -540,22 +540,23 @@
   }
 
   #where {
-    display: flex;
+    display: block;
     margin-right: 7%;
+    margin-left: 0;
     margin-top: 5%;
   }
 
   #me {
     margin-left: 2%;
     display: block;
-    margin-left: -8.5px;
+    margin-left: 0;
     margin-top: 0%;
     width: 95%;
   }
 
   #experience {
     display: block;
-    margin-left: -8.5px;
+    margin-left: 0;
     width: 90%;
     margin-top: 0%;
   }
