@@ -686,8 +686,8 @@
   }
   #phone {
     margin-top: 15%;
-    width: 110%;
-    margin-left: 50%;
+    width: 125%;
+    margin-left: 45%;
   }
   #cta-phone {
     width: 80%; /* Adjust width for smaller screens */
@@ -698,5 +698,246 @@
     font-size: 0.6rem; /* Adjust font size for smaller screens */
     width: 101.5%;
     margin-left: -2%;
+  }
+}
+
+@media (min-width: 1300px) {
+
+  #title {
+    font-size: 2.6rem; /* Adjust font size for smaller screens */
+  }
+
+  #underTitle {
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
+  }
+
+  #navBar {
+    padding: 1%;
+    width: 102%; /* Adjust padding for smaller screens */
+  }
+
+  .navItem {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+    padding: 3%; /* Adjust padding for smaller screens */
+  }
+
+  
+
+  #slider1, #slider2, #slider3 {
+    margin: -3px;
+    width: 33.2%;
+    height: 24em; /* Adjust height for larger screens */
+  }
+
+
+  .littlePar {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    display: flex;
+  }
+
+  #where {
+    width: 200px;
+    display: block;
+    margin-left: 7%;
+    margin-top: 5%;
+    text-align: center;
+   
+  }
+
+  #me {
+    width: 200px;
+    display: block;
+    margin-left: 78%;
+    margin-top: -10%;
+    text-align:center;
+    
+  }
+
+  #experience {
+    width: 200px;
+    display: block;
+    margin: 0;
+    text-align:center;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    margin-left: 42.5%
+    
+  }
+  #cta {
+    width: 30%; /* Adjust width for smaller screens */
+    margin-left: 35%; /* Center the button */
+    margin-bottom: 20%;
+  }
+
+  .aboutMe {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .listTitle,
+  #list {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    width: 60%;
+  }
+
+  
+
+  #grid {
+    float:right;
+    margin-top: -35%;
+    
+  }
+
+  #expTitle,
+  #conTitle {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    
+  }
+
+
+  #front-end,
+  #back-end,
+  #skill {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #fe,
+  #be {
+    display: block;
+    text-align: center;
+    margin-right: 0%;
+    margin-top: 5%;
+  }
+
+  #expTitle {
+    margin-bottom: 4%;
+   
+  }
+
+  
+
+
+  #front-end,
+  #back-end,
+  #skill {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+   
+  }
+
+  #fe,
+  #be {
+    display: block;
+    text-align: center;
+    margin-right: 0%;
+    margin-top: 5%;
+  }
+
+  #expTitle {
+    margin-bottom: 4%;
+    margin-top: 15%;
+  }
+
+  #skills {
+    margin-top: 4%;
+    display: block;
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  #back-end {
+    display: block;
+
+    text-align: center;
+  }
+
+  #skill {
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  .par {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    display: inline;
+    margin-top: 0%;
+    width: 60%;
+    text-align:center;
+    margin-bottom: 2%;
+  }
+
+  #mid,
+  #left,
+  #right {
+    display: block;
+    width: 30%; /* Make images full width for smaller screens */
+    height: auto; /* Adjust height for smaller screens */
+    margin: 0;
+    margin-left: 34%; /* Adjust margin for smaller screens */
+    margin-top: 3%;
+  }
+
+  #left {
+    margin-top: 15%;
+  }
+
+  #serTitle {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin-top: 15%;
+  }
+
+  #cta-services {
+    width: 50%; /* Adjust width for smaller screens */
+    margin-left: 25%; /* Center the button */
+  }
+
+  #ser-b,
+  #ser-li {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    width: 65%;
+  }
+
+  #servicesList {
+   
+    padding: 1%;
+    margin-left: 1px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+  }
+  #conTitle {
+    margin-top: 15%;
+    font-size: 2rem;
+    margin-bottom: 5%;
+  }
+  #contact,
+  #contactUnder,
+  #conList {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    margin: 0;
+    margin-bottom: 2%;
+    text-align:center;
+  }
+
+  #conList {
+    text-align: left;
+    margin-left:40%;
+  }
+  #phone {
+    margin-top: 15%;
+    width: 110%;
+    margin-left: 44.75%;
+  }
+  #cta-phone {
+    width: 80%; /* Adjust width for smaller screens */
+    margin-left: 10%; /* Center the button */
+  }
+
+  #footer {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    width: 101.5%;
+    margin-left: -1%;
   }
 }
