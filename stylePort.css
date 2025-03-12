@@ -1,6 +1,7 @@
 #portfolio1 {
   column-count: 4;
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 #portfolio2 {
@@ -23,7 +24,7 @@
   color: #20305a;
   font-size: 1rem;
   background-color: #88907a46;
-  height: 250px;
+  height: 270px;
   border-radius: 5px;
 }
 
