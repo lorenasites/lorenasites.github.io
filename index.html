@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="website, developer, application, Lorena, Spallino, Caledon, Bolton, Web Site, Web application, Web developer, web designer, design">
     <title>Lorena Spallino Sites</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,10 +20,10 @@
     <h6 id="underTitle">Web Developer</h6>
     <div id="navBar">
       <a class="navItem" href="#title">Home</a>
-      <a class="navItem" href="#aboutPageAnchor">About</a>
-      <a class="navItem" href="#expertisePageAnchor">Expertise</a>
-      <a class="navItem" href="#servicesPageAnchor">Services</a>
-      <a class="navItem" href="#contactPageAnchor">Contact</a>
+      <a class="navItem" href="#aboutPage">About</a>
+      <a class="navItem" href="#expertisePage">Expertise</a>
+      <a class="navItem" href="#servicesPage">Services</a>
+      <a class="navItem" href="#contactPage">Contact</a>
     </div>
     <div class="" id="homePage">
       <div id="slider">
@@ -86,14 +85,25 @@
             internet applications.
           </a>
         </span>
-        <button id="cta" onclick="location.href='#contactPageAnchor';">
-          Get In Touch Today!
-        </button>
+        <div id="ctaButtons">
+          <button id="cta" onclick="location.href='#contactPage';">
+            Get In Touch Today!
+          </button>
+          <button
+            id="cta"
+            onclick="window.location.href='https://www.linkedin.com/in/lorena-spallino-96904a347';"
+          >
+            Connect On Linkedin!
+          </button>
+          <button id="cta" onclick="location.href='portfolio.html';">
+            View My Portfolio!
+          </button>
+        </div>
       </div>
     </div>
 
     <!-- ************* ABOUT PAGE ************** -->
-    <p id="aboutPageAnchor"></p> <br><br>
+
     <!-- Container for ABOUT- page 2 -->
     <div class="" id="aboutPage">
       <h1 class="aboutMe">ABOUT ME</h1>
@@ -155,7 +165,7 @@
     </div>
 
     <!-- ************* EXPERTISE PAGE ************** -->
-    <p id="expertisePageAnchor"></p> <br>
+
     <!-- Container for EXPERTISE- page 3 -->
     <div class="" id="expertisePage">
       <h1 id="expTitle">EXPERTISE</h1>
@@ -200,7 +210,7 @@
       <img id="right" src="epertise.jpg" />
     </div>
     <!-- ************* SERVICES PAGE ************** -->
-    <p id="servicesPageAnchor"></p>
+
     <!-- Container for SERVICES- page 4 -->
     <div class="" id="servicesPage">
       <h1 class="services-container" id="serTitle">SERVICES</h1>
@@ -261,12 +271,12 @@
           </li>
         </ul>
       </div>
-      <button id="cta-services" onclick="location.href='#contactPageAnchor';">
+      <button id="cta-services" onclick="location.href='#contactPage';">
         Get in Touch Today!
       </button>
     </div>
     <!-- ************* CONTACT PAGE ************** -->
-    <p id="contactPageAnchor"></p> 
+
     <!-- Container for CONTACT- page 5 -->
     <div class="" id="contactPage">
       <h1 class="contact-container" id="conTitle">CONTACT ME</h1>
